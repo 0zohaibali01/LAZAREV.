@@ -367,7 +367,6 @@ nav {
 
 .sec3 {
     width: 90%;
-    height: 85vh;
     padding-top: 130px;
 }
 
@@ -378,7 +377,8 @@ h1 {
 }
 
 .sec3 {
-    height: 87vh;
+    height: 78vh;
+    margin-bottom: 10vh;
 }
 
 .reghtsideupper {
@@ -403,7 +403,8 @@ h1 {
     justify-content: space-around;
 }
 
-.RSUP_H ,.RSLW_H{
+.RSUP_H,
+.RSLW_H {
     font-size: 16.4px;
     color: rgb(163, 163, 163);
     font-style: normal;
@@ -411,13 +412,61 @@ h1 {
     padding-bottom: 30px;
 }
 
-.RSUP_P,.RSLW_P {
-    font-size: 25.6px; 
-    font-style: normal; 
+.RSUP_P,
+.RSLW_P {
+    font-size: 25.6px;
+    font-style: normal;
     font-weight: 500;
     color: rgb(17, 17, 17);
 }
 
-.reghtsideupper{
+.reghtsideupper {
     padding-bottom: 30px;
+}
+
+
+.sec4 {
+    width: 88%;
+    height: 87vh;
+    margin: auto;
+    margin-bottom: 15vw;
+}
+
+.acheivements {
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+    gap: 12px;
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.heading{
+    font-size: 4.5vw;
+    margin-bottom: 1.4vw;
+}
+
+.card small{
+    color: #a0a0a0;
+    font-weight: 700;
+}
+
+.cardupperpart{
+    padding-top: 2vh;
+}
+
+
+.sec5{
+    width: 90%;
+    margin: auto;
+    height: 75vh;
 }
