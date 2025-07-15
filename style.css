@@ -564,7 +564,8 @@ h1 {
     height: 79vh;
     display: flex;
     margin-left:31.1% ;
-    justify-content: space-between;;
+    justify-content: space-between;
+    margin-bottom: 20vh;
 }
 
 .cardright{
@@ -634,3 +635,18 @@ h1 {
     object-fit: cover;
 }
 
+.sec8{
+    background-color: #111111;
+    color: #fffdfd;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 60vh;
+    margin-bottom: 50vh;
+    font-size: 2.9vw;
+}
+
+.sec8 h2 {
+    margin-left: 3.9vw;
+    margin-top: 2vw;
+}
