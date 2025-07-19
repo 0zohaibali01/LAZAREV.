@@ -657,6 +657,7 @@ h1 {
     color: #fffdfd;
     width: 100%;
     height: 100vh;
+    padding-bottom: 15vh;
 }
 
 .wrapsec9 {
@@ -664,9 +665,10 @@ h1 {
     width: 87%;
     height: 100%;
     margin: auto;
-    padding-top: 14vh;   
+    padding-top: 14vh;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .sec9a {
@@ -674,6 +676,7 @@ h1 {
     height: auto;
     line-height: 1.2;
     margin-bottom: 20vh;
+    overflow: scroll;
 }
 
 .sec9ahead {
@@ -687,6 +690,7 @@ h1 {
 }
 
 .sec9awrap {
+    padding-bottom: 13vh;
 }
 
 .sec9atext1 {
@@ -697,7 +701,7 @@ h1 {
     font-size: 2vh;
 }
 
-.wrapsec9 button{
+.wrapsec9 button {
     width: 21%;
     height: 8vh;
     padding: 2.2vw 2.5vw;
@@ -710,4 +714,146 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.sec9amid {
+    border-top: 1px solid #3D3D3D;
+}
+
+.sec9abottom {
+    border-top: 1px solid #3D3D3D;
+}
+
+.sec9a svg {
+    width: 1vw;
+    height: 1vw;
+
+}
+
+.sec9a h2 {
+    font-size: 3vw;
+}
+
+.sec9aupper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0;
+}
+
+.sec9alower {
+    display: flex;
+    font-size: .9vw;
+    font-weight: 600;
+    padding: 3vw 0;
+}
+
+.sec9alower div {
+    padding: .4vw 1vw;
+    border: 1px solid #e9e9e9a0;
+    border-radius: 1.3vw;
+}
+
+.sec10 {
+    background-color: #111;
+    width: 100%;
+    height: 56vh;
+    color: #fffdfd;
+}
+
+.sec10wrap {
+    margin: auto;
+    width: 87%;
+    height: 100%;
+    border-top: 1px solid #8282828a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec10wrap h2 {
+    font-size: medium;
+    padding: 4vw 0;
+}
+
+.sec10wrap p {
+    font-size: 2.4vw;
+    padding-bottom: 4vw;
+}
+
+.sec11{
+    width: 100%;
+    height: 118vh;
+    background-color: #111;
+    color: #ffffff;
+}
+
+.sec11wrap{
+    margin: auto;
+    width: 87%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: .9vw;
+    height: 80vh;
+    margin-bottom: 1.8vh;
+}
+
+.industry-card {
+    padding: 1.8vw; 
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.industry-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.industry-title div{
+    font-size: x-large;
+}
+
+.industry-title svg{
+    width: 3vh;
+    height: 3vh;
+}
+
+.industry-description{
+    font-size: 1.9vh;
+}
+
+.sec11button{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sec11button button{
+    height:11.4vw ;
+    width:11.4vw ;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    border-radius: 50%;
+    background-color: #0DA34E;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+}
+
+.sec11button button svg{
+    width:1.9vh ;
+    height:1.9vh ;
+    align-self: flex-end; /* Right top */
+}
+
+.sec11button button div{
+    align-self: flex-start; /* Left bottom */
+            margin-top: auto; /* Pushes to bottom */
 }
